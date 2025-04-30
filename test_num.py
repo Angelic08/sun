@@ -1,7 +1,5 @@
 
-from test_num import add_numbers
+from sun.add_num import add_numbers
 
-def add_numbers(a, b):
-    assert(a + b)
-
-print("all test case passed")
+def test_add_numbers():
+    assert add_numbers(2, 3) == 5
