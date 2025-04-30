@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("git clone"){
             steps{
-                git url:'https://github.com/Angelic08/can.git', branch:'main'
+                git url:'https://github.com/Angelic08/sun.git', branch:'main'
             }
         }
         stage('install dependencies'){
